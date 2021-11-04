@@ -1,0 +1,214 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* .body_cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 100vh;
+}
+
+* .body_cv i {
+  color: #54a187;
+  float: left;
+  padding-right: 20px;
+}
+
+* .body_cv progress {
+  background-color: #54a187;
+  color: #54a187;
+  color: blue;
+  border: none;
+  width: 300px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+* .body_cv progress::-webkit-progress-value {
+  background-color: #54a187;
+  border-radius: 20px;
+}
+
+* .body_cv progress::-moz-progress-bar {
+  background-color: #54a187;
+}
+
+* .body_cv progress::-webkit-progress-bar {
+  border-radius: 20px;
+}
+
+* .body_cv .left {
+  width: 37%;
+  padding: 20px 40px;
+  border: 1px solid #DDD;
+  margin: 23px;
+  border-radius: 4px;
+  -webkit-box-shadow: 8px 8px 5px 0px #bbadadbf, -5px -5px 5px 0px #bbadadbf;
+          box-shadow: 8px 8px 5px 0px #bbadadbf, -5px -5px 5px 0px #bbadadbf;
+}
+
+* .body_cv .left .img {
+  background-image: url(photo.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -20px -40px;
+  width: 380px;
+  height: 275px;
+}
+
+* .body_cv .left .img h1 {
+  position: relative;
+  top: 85%;
+  left: 13px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+* .body_cv .left .personal_info {
+  margin-top: 40px;
+}
+
+* .body_cv .left .personal_info .icon {
+  width: 90%;
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+* .body_cv .left .personal_info .icon h3 {
+  font-weight: 100;
+}
+
+* .body_cv .left .skills,
+* .body_cv .left .language {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+* .body_cv .left .skills .class_header,
+* .body_cv .left .skills .lang_head,
+* .body_cv .left .language .class_header,
+* .body_cv .left .language .lang_head {
+  margin-bottom: 20px;
+}
+
+* .body_cv .left .skills .class_header h2,
+* .body_cv .left .skills .lang_head h2,
+* .body_cv .left .language .class_header h2,
+* .body_cv .left .language .lang_head h2 {
+  text-transform: capitalize;
+}
+
+* .body_cv .left .skills .skill progress,
+* .body_cv .left .skills .lang progress,
+* .body_cv .left .language .skill progress,
+* .body_cv .left .language .lang progress {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+* .body_cv .right .top,
+* .body_cv .right .bottom {
+  padding: 20px 40px;
+  border: 1px solid #DDD;
+  margin: 23px;
+  border-radius: 4px;
+  -webkit-box-shadow: 8px 8px 5px 0px #bbadadbf, -5px -5px 5px 0px #bbadadbf;
+          box-shadow: 8px 8px 5px 0px #bbadadbf, -5px -5px 5px 0px #bbadadbf;
+  height: 45%;
+  text-transform: capitalize;
+}
+
+* .body_cv .right .top .head,
+* .body_cv .right .top .class_head,
+* .body_cv .right .bottom .head,
+* .body_cv .right .bottom .class_head {
+  margin-bottom: 40px;
+}
+
+* .body_cv .right .top .head i,
+* .body_cv .right .top .class_head i,
+* .body_cv .right .bottom .head i,
+* .body_cv .right .bottom .class_head i {
+  margin-top: 5px;
+  margin-right: 13px;
+  font-size: 25px;
+}
+
+* .body_cv .right .top .works .work,
+* .body_cv .right .bottom .works .work {
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+* .body_cv .right .top .works .work h4,
+* .body_cv .right .bottom .works .work h4 {
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+* .body_cv .right .top .works .work h6,
+* .body_cv .right .bottom .works .work h6 {
+  font-size: 13px;
+  color: #54a187;
+  margin-bottom: 15px;
+}
+
+* .body_cv .right .top .works .work h6 span,
+* .body_cv .right .bottom .works .work h6 span {
+  background-color: #54a187;
+  color: #FFF;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+* .body_cv .right .top .works .work p,
+* .body_cv .right .bottom .works .work p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+* .footer {
+  height: 20vh;
+  background-color: #54a187;
+  color: #FFF;
+  text-transform: capitalize;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .footer ul li {
+  padding-right: 10px;
+}
+
+* .footer ul li a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

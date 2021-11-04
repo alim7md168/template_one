@@ -1,0 +1,137 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    //min-width: 1440px
+
+    .body_cv
+        display: flex
+        justify-content: space-between
+        min-height: 100vh
+
+        i
+            color: #54a187
+            float: left
+            padding-right: 20px
+        progress
+            background-color: #54a187
+            color: #54a187
+            color: blue
+            border: none
+            width: 300px
+            height: 20px
+            border-radius: 20px
+        progress::-webkit-progress-value
+            background-color: #54a187
+            border-radius: 20px
+        progress::-moz-progress-bar
+            background-color: #54a187
+        progress::-webkit-progress-bar
+            border-radius: 20px
+
+        .left
+            width: 37%
+            padding: 20px 40px
+            border: 1px solid #DDD
+            margin: 23px
+            border-radius: 4px
+            box-shadow: 8px 8px 5px 0px #bbadadbf, -5px -5px 5px 0px #bbadadbf
+
+            .img
+                background-image: url(photo.jpg)
+                background-position: top
+                background-repeat: no-repeat
+                background-size: cover
+                margin: -20px -40px
+                width: 380px
+                height: 275px
+
+                h1
+                    position: relative
+                    top: 85%
+                    left: 13px
+                    font-size: 24px
+                    text-transform: uppercase
+                    color: #FFF
+
+            .personal_info
+                margin-top: 40px
+                .icon
+                    width: 90%
+                    text-transform: capitalize
+                    font-size: 15px
+                    margin-bottom: 20px
+
+                    h3
+                        font-weight: 100
+            .skills,
+            .language
+                text-transform: capitalize
+                margin-top: 20px
+                .class_header,
+                .lang_head
+                    margin-bottom: 20px
+                    h2
+                        text-transform: capitalize
+                .skill,
+                .lang
+                    progress
+                        margin-top: 10px
+                        margin-bottom: 10px
+
+        .right
+            .top,
+            .bottom
+
+                padding: 20px 40px
+                border: 1px solid #DDD
+                margin: 23px
+                border-radius: 4px
+                box-shadow: 8px 8px 5px 0px #bbadadbf, -5px -5px 5px 0px #bbadadbf
+                height: 45%
+                text-transform: capitalize
+                .head,
+                .class_head
+                    margin-bottom: 40px
+                    i
+                        margin-top: 5px
+                        margin-right: 13px
+                        font-size: 25px
+                .works
+                    .work
+                        text-transform: capitalize
+                        margin-bottom: 40px
+                        h4
+                            font-weight: 100
+                            margin-bottom: 20px
+                        h6
+                            font-size: 13px
+                            color: #54a187
+                            margin-bottom: 15px
+                            span
+                                background-color: #54a187
+                                color: #FFF
+                                padding: 6px
+                                border-radius: 5px
+                        p
+                            font-size: 14px
+                            opacity: 0.7
+
+    .footer
+        height: 20vh
+        background-color: #54a187
+        color: #FFF
+        text-transform: capitalize
+        padding-top: 10px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        align-items: center
+
+        ul
+            list-style: none
+            display: flex
+            li
+                padding-right: 10px
+                a
+                    text-decoration: none
